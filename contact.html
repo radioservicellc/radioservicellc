@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Contact Us - Radio Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo-container">
+        <img src="logo.png" alt="Radio Services Logo" class="logo-img" onerror="this.style.display='none'; document.getElementById('altLogo').style.display='block';">
+        <span id="altLogo" class="logo-fallback" style="display:none;">Radio Services</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms & Conditions</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-content">
+    <h1 class="page-title">Contact Radio Services</h1>
+    <div style="display: flex; gap: 40px; flex-wrap: wrap;">
+      <div class="contact-form" style="flex: 1; min-width: 300px;">
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" required placeholder="Enter full name">
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" required placeholder="Enter email address">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" required placeholder="Enter phone number">
+          </div>
+          <div class="form-group">
+            <label for="message">Message / Inquiry</label>
+            <textarea id="message" rows="5" required placeholder="How can we assist you?"></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+
+      <div class="card" style="flex: 1; min-width: 280px; align-self: flex-start;">
+        <h3>Direct Communication</h3>
+        <p style="margin-bottom: 12px;"><strong>Company Entity:</strong> Radio Services</p>
+        <p style="margin-bottom: 12px;"><strong>Business Owner:</strong> Adarsh Anand</p>
+        <p style="margin-bottom: 12px;"><strong>Official Contact:</strong> +1 (406) 747-4507</p>
+        <p style="margin-bottom: 12px;"><strong>Registration Status:</strong> MSME Certified</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Radio Services</h4>
+          <p>MSME Registered Sole Proprietorship</p>
+          <p>Owner: Adarsh Anand</p>
+          <p>Phone: +1 (406) 747-4507</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <a href="about.html">About Us</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal & Compliance</h4>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms.html">Terms & Conditions</a>
+          <a href="#" id="downloadMsmeBtn">Download MSME Proof</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Radio Services. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
